@@ -24,14 +24,14 @@ html{
     margin: 0 auto;
 }
 header{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url("bgimg.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url("/images/bgimg.jpg");
     background-size: cover;
     background-position: center;
     height: 100vh;
 }
 .HeroTextBox{
     position: absolute;
-    width:80%;
+    width:70%;
     top:52%;
     left: 50%;
     transform: translate(-52%,-50%);
@@ -176,7 +176,7 @@ list-style: none;
     transform: scale(1);
 }
 .section-au{
-    background-image: url("bgimg2.jpg");
+    background-image: url("/images/bgimg2.jpg");
     background-position: center;
     background-size: cover;
     width: 100%;  
@@ -257,7 +257,7 @@ list-style: none;
     width: 200px;
 }
 .section-cities{
-    height: 620px;
+    height: 720px;
     background-color: rgba(221, 217, 217, 0.53);
     background-size: cover;
     background-position: center;
@@ -278,43 +278,9 @@ list-style: none;
     margin: 0 320px;
     margin-top: 50px;
 }
-.section-form h2{
-    text-align: center;
-    padding: 70px;
-    font-size: 180%;
-    text-transform: uppercase;
-    font-weight: 300;
-    letter-spacing: 2px;
-    text-decoration: underline;
-}
-.section-form h2:after{
-    display: block;
-    height: 6px;
-    background-color: #8cebe4;
-    content: " ";
-    width: 100px;
-    margin: 0 430px;
-    margin-top: 50px;
-}
-.contact-form{
-    margin: 0 auto;
-    width: 320px;
-    
-    
-}
-.section-form{
-    padding-bottom: 30px;
-    background-color: rgba(253, 237, 214, 0.45);
-    width: 100%;
-    
-}
-input,select{
-    width: 100%;
-}
-.label{
-    border-radius: 10px;
-    }
+
 footer{
+    margin-top: 200px;
     background-color: #191919;
     color: white;
     height: 200px;
